@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    float: right;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 50px
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+main{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+h2 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    height: 100px;
+}
+
+footer p {
+    color: black;
+}
+
+footer address {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nombre-empresa {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 100%;
+}
+
+.redes-sociales a img:hover {
+    width: 40px;
+    height: 40px;
+}

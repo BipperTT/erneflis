@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    float: right;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 50px
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+section {
+    padding-top: 10%;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+body p,
+h4,
+h5 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    background-color: red;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+a h2:hover{
+    color: rgb(58, 58, 58);  
+}
+
+a{
+    text-decoration: none;
+}
+
+.content-pelis {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    flex-direction: column;
+}
+
+.content-pelis article {
+    width: 400px;
+    height: 1000px;
+}
+
+.content-pelis img {
+    width: 400px;
+    height: 600px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(58, 58, 58);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 15%;
+    justify-content: center;
+
+}
+
+.desc {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    height: 100px;
+}
+
+footer p {
+    color: black;
+}
+
+footer address {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nombre-empresa {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 100%;
+}
+
+.redes-sociales a img:hover {
+    width: 40px;
+    height: 40px;
+}

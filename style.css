@@ -1,0 +1,369 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+      transition: all 0.3s ease-in-out;
+      margin: 0;
+      padding: 0;
+}
+
+
+
+nav {
+      float: right;
+      text-align: center;
+}
+
+.logo {
+      padding-top: 25px;
+      padding-left: 50px
+}
+
+header {
+      background-color: black;
+      position: fixed;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+
+ul li {
+      display: inline-block;
+      padding: 50px;
+}
+
+ul li a:hover {
+      color: red;
+}
+
+ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+section{
+      padding-top: 10%;
+}
+
+
+
+.imgvertical {
+      width: 132px;
+      height: 185px;
+}
+
+.imghorizontal {
+      width: 185px;
+      height: 132px;
+}
+
+body {
+      background-color: rgb(35, 35, 35);
+}
+
+body p,
+h4,
+h5 {
+      color: white;
+}
+
+a {
+      text-decoration: none;
+      color: white
+}
+
+a h2:hover {
+      color: red;
+}
+
+h2 {
+      color: white;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-family: 'Bebas Neue', sans-serif;
+}
+
+h4{
+      font-family: 'Bebas Neue', sans-serif;
+      background-color: rgb(184, 0, 0);
+}
+
+h5{
+      font-family: 'Bebas Neue', sans-serif;
+}
+
+.content-pelis {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-top: 2%;
+
+ 
+}
+
+.content-pelis a h4:hover{
+      color:rgb(58, 58, 58);
+}
+
+.content-pelis article{
+      width:200px;
+      height: 500px;
+}
+
+.content-pelis img{
+      width: 200px;
+      height: 300px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+}
+
+.info{
+      display: flex;
+      text-align: center;
+      flex-direction: column;  
+      background-color: rgb(58, 58, 58);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      height: 15%;
+      justify-content: center;
+ 
+}
+
+.desc{
+      display: flex;
+      background-color: rgb(29, 29, 29);
+      text-align: center;
+      flex-direction: column;
+      height: 20%;
+      justify-content: center;
+
+ 
+}
+
+.fondoactores{
+      background-color: rgb(0, 0, 0);
+}
+
+.content-actores{
+
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+
+}
+
+.content-actores article{
+      width:200px;
+      height: 350px;
+}
+
+.content-actores img{
+      width: 150px;
+      height: 180px;
+      border-radius: 100px;
+      margin-top: 2%;
+
+}
+
+.content-actores h4{
+      background-color: rgb(15, 15, 15);
+}
+
+.fondofotoactores{
+      background-color: rgb(0, 0, 0);
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border: 4px rgb(15, 15, 15) solid ;
+ 
+}
+
+.titulocentro{
+      text-align: center;
+      padding-top: 2%;
+}
+
+aside{
+      margin-right: 5%;
+      margin-top: 30%;
+      width: 16%;
+      padding-bottom: 2%;
+      padding-top: 0.5%;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background-color: rgb(29, 29, 29);
+}
+
+aside h2{
+      text-align: center;
+}
+
+.info2{
+      display: flex;
+      text-align: center;
+      flex-direction: column;  
+      background-color: rgb(58, 58, 58);
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      justify-content: center;
+ 
+}
+
+.content-festivales{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      height: 900px;
+
+}
+
+
+
+.content-festivales article img{
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+
+}
+
+.series{
+      width:84%;
+      height: 1200px;
+      float: right;
+      padding-top: 10%;
+
+
+
+
+}
+
+.content-series{
+      display: flex;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      margin-top: 2%;
+      padding-left: 5%;
+      padding-right: 5%;
+      flex-wrap: wrap;
+}
+
+.series h2{
+      text-align: center;
+
+}
+
+.content-series article{
+      width: 26%;
+      height: 800px;
+
+
+}
+
+.content-series article img{
+      width: 100%;
+      height: 478px;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+}
+
+
+
+
+
+.lomasvisto{
+      margin-top: 20%;
+      width: 100%;      
+}
+
+.lomasvisto h2{
+      text-align: center;
+      padding-top: 2%;
+}
+
+.content-lomasvisto{
+      display: flex;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      align-content: flex-start;
+      margin-top: 2%;
+      padding-left: 5%;
+      padding-right: 5%;
+      
+}
+
+.content-lomasvisto article{
+      height: 300px;
+}
+
+.content-lomasvisto article img{
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+}
+
+.fondolomasvisto{
+      background-color: rgb(0, 0, 0);
+}
+
+.content-lomasvisto h4{
+      background-color: rgb(15, 15, 15);
+}
+
+footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(55, 55, 55    );
+      height: 100px;
+}
+
+footer p{
+      color: black;
+}
+
+footer address{
+      width:15%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.nombre-empresa{
+      width:15%;
+      display: flex;
+      justify-content: center;
+}
+
+.redes-sociales{
+      width:15%;
+      display: flex;
+      justify-content: space-between;
+}
+
+.redes-sociales img{
+      width: 30px;
+      height: 100%;   
+}
+
+.redes-sociales a img:hover{
+      width: 40px;
+      height: 40px;
+}

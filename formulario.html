@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="src/ico.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style_formulario.css">
+</head>
+
+<body>
+
+
+    <header>
+
+        <a href="index.html">
+            <img src="src/logo.png" class="logo" alt="Logo (título)">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="peliculas.html">Películas</a></li>
+                <li><a href="#">Actores</a></li>
+                <li><a href="#">Festivales</a></li>
+                <li><a href="#">Lo más visto</a></li>
+                <li><a href="formulario.html">Date de alta</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="form">
+            <h2>Formulario</h2>
+            <form action="procesar_formulario.php" method="GET">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" rows="4" cols="50"></textarea><br>
+
+                <label for="encuesta">Puntua tu experiencia:</label>
+                <select name="encuesta" id="encuesta">
+                    <option value="opcion1">Mala</option>
+                    <option value="opcion2">Mejorable</option>
+                    <option value="opcion3">Buena</option>
+                </select><br>
+
+                <label>Aspectos que mejorarías:</label><br>
+                <input type="checkbox" name="mejorar[]" value="Variedad de contenido"> Variedad de contenido<br>
+                <input type="checkbox" name="mejorar[]" value="Calidad/cantidad de informacion"> Calidad/cantidad de
+                información<br>
+                <input type="checkbox" name="mejorar[]" value="Aspecto de la web"> Aspecto de la web<br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+
+
+    </main>
+
+
+    <footer>
+
+        <address>
+            <p>Carrretera de Barcelona, 126, 08291 Ripollet, Barcelona</p>
+            <p>935 80 86 00</p>
+            <p>atencionalcliente@telepizza.com</p>
+        </address>
+
+        <div class="nombre-empresa">
+            <p>&copy; Series y Películas</p>
+        </div>
+
+
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/telepizza" target="_blank"> <img src="src/facebook.ico"
+                    alt="Icono facebook"></a>
+            <a href="https://twitter.com/telepizza_es" target="_blank"><img src="src/twitter.ico"
+                    alt="Icono twitter"></a>
+            <a href="https://instagram.com/telepizza_es" target="_blank"><img src="src/instagram.ico"
+                    alt="Icono instagram"></a>
+            <a href="https://www.youtube.com/user/TelepizzaEsp" target="_blank"><img src="src/youtube.ico"
+                    alt="Icono youtube"></a>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    float: right;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-left: 50px
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+
+section {
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+body p,
+h4, h3,
+h5 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    background-color: red;
+    font-family: 'Bebas Neue', sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-left: 2%;
+}
+
+section{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    width:30%
+}
+
+.izquierda h3, h4{
+    background-color: rgb(58, 58, 58);
+    padding-left: 2%;
+}
+
+.desc{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(29, 29, 29);
+    height: 150px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    width:68%;
+}
+
+.derecha img{
+    height: 266.666px;
+    width: 200px; 
+    border-radius: 15px;
+}
+
+.derecha h4{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.derecha h3{
+    background-color: red;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.actores{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+}
+
+.content-actores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(58, 58, 58);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+}
+
+.director{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-director{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:300px;
+    background-color: rgb(58, 58, 58);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 1%; 
+}
+
+.director img{
+    height: 266.666px;
+    width: 200px;  
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(55, 55, 55);
+    height: 100px;
+}
+
+footer p {
+    color: black;
+}
+
+footer address {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nombre-empresa {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 100%;
+}
+
+.redes-sociales a img:hover {
+    width: 40px;
+    height: 40px;
+}
